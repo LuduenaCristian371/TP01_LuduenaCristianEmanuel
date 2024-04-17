@@ -1,3 +1,4 @@
-String nombre=("Cristian Emanuel");
+import javax.swing.JOptionPane;
+String nombre=JOptionPane.showInputDialog("Escribir su nombre");
 
-println("Que tal "+nombre);
+println("Hola "+nombre);
